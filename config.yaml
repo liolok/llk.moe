@@ -59,20 +59,7 @@ params:
         title: 终生售后
         description: 开啥玩笑，白嫖还要啥自行车啊！不过不想用了也可以解除契约，没有陷阱！
   work:
-    enable: true
-    item:
-      - title: 虚位以待
-        subtitle: 阿巴阿巴
-        img: images/img_1.jpg
-      - title: 虚位以待
-        subtitle: 歪比巴卜
-        img: images/img_2.jpg
-      - title: 虚位以待
-        subtitle: 吗卡吧卡
-        img: images/img_3.jpg
-      - title: 虚位以待
-        subtitle: 欧拉欧拉
-        img: images/img_4.jpg
+    enable: false
   team:
     enable: true
     title: 那么哪里才能嫖得到呢
