@@ -1,0 +1,99 @@
+theme: hugo-icon
+baseURL: https://llk.moe/
+languageCode: zh-Hans
+title: 送子域名
+params:
+  author: 李皓奇
+  description: 李皓奇的共享域名
+  hero:
+    img: images/cover/monogatari.jpg
+    title: 年轻的白嫖怪呦~
+    description: 你掉的是这个金色的域名，还是这个银色的呢？
+  nav:
+    mission: Domain
+    services: Service
+    team: Contact
+  mission:
+    enable: true
+    images:
+      enable: true
+      list:
+        - img: images/cover/tengen-toppa.jpg
+        - img: images/cover/zetsubou-sensei.jpg
+        - img: images/cover/panty-and-stocking.jpg
+        - img: images/cover/lucky-star.webp
+    item:
+      - weight: 1
+        name: marketing
+        title: moe
+        subtitle: 萌！萌就完事儿了！
+      - weight: 2
+        name: analysis
+        title: llk
+        subtitle: 萝莉控、连连看、LoveLive is King？你说是啥都行！
+      - weight: 3
+        name: strategy
+        title: more
+        subtitle: 白嫖专属于你的子域名！最短四个字符的个人 ID 即可。
+  services:
+    enable: true
+    title: 白嫖域名好处都有啥
+    description: 不必剁手买域名，已经有冤大头花过钱了！
+    item:
+      - icon: icon-present
+        title: 免费赠送
+        description: 与其闲置还是给大家用比较合理，收钱又不符合白嫖精神，应当赠予有缘人。
+      - icon: icon-rocket
+        title: 玄学加速
+        description: 虽然只是 CloudFlare 减速云的 DNS，但是二次元域名会有玄学加成！
+      - icon: icon-plane
+        title: 先到先得
+        description: 子域名虽然多得很，但你喜欢的可能已经被占用了，快来签定契约吧！
+      - icon: icon-monitor
+        title: 给网站用
+        description: 用 VPS 搭了网站没有域名？别烧钱续域名了，白嫖它不香吗！
+      - icon: icon-pencil
+        title: 给博客用
+        description: GitHub/GitLab 用户名太长、Pages 链接不好看？立即二次元！花里胡哨！
+      - icon: icon-support
+        title: 终生售后
+        description: 开啥玩笑，白嫖还要啥自行车啊！不过不想用了也可以解除契约，没有陷阱！
+  work:
+    enable: true
+    item:
+      - title: 虚位以待
+        subtitle: 阿巴阿巴
+        img: images/img_1.jpg
+      - title: 虚位以待
+        subtitle: 歪比巴卜
+        img: images/img_2.jpg
+      - title: 虚位以待
+        subtitle: 吗卡吧卡
+        img: images/img_3.jpg
+      - title: 虚位以待
+        subtitle: 欧拉欧拉
+        img: images/img_4.jpg
+  team:
+    enable: true
+    title: 那么哪里才能嫖得到呢
+    description: 当然是找花了钱买域名但又没内容的可怜人洽谈啦
+    item:
+      - name: 李皓奇
+        # position: 冤大头
+        description: 给可怜人留点正式的子域名吧，个人 ID 多好。
+        img: images/avatar/sakamotosan.jpg
+        email: apply-subdomain-of-llk-moe@liolok.com
+        telegram: 'https://t.me/liolok'
+  contact:
+    enable: false
+  footer:
+    enable: true
+    note: |-
+      <p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br>
+      Designed by <a href='https://freehtml5.co/icon-free-website-template-using-bootstrap/' target='_blank'>FreeHTML5.co</a>
+      and ported to Hugo by <a href='https://github.com/SteveLane/hugo-icon/' target='_blank'>SteveLane</a></small></p>
+    github: 'https://github.com/liolok/llk.moe'
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
